@@ -33,7 +33,7 @@ export default function Home() {
           </a>
 
           <a
-            href="mailto:purwarpranav80@gmail.com"
+            href="mailto:contact@pranavpurwar.ga"
             className="card"
           >
             <h3>Contact &rarr;</h3>
