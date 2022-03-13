@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default function Home() {
+export default function Home () {
   return (
     <div className="container">
       <meta name="title" content="Pranav Purwar - Web and Android Developer" />
@@ -56,7 +56,8 @@ export default function Home() {
         </a>
       </footer>
 
-      <style jsx>{`
+      <style jsx>
+      {`
         .container {
           min-height: 100vh;
           padding: 0 0.5rem;
@@ -187,7 +188,8 @@ export default function Home() {
           }
         }`}</style>
 
-      <style jsx global>{`
+      <style jsx global>
+      {`
         html,
         body {
           padding: 0;
@@ -199,7 +201,8 @@ export default function Home() {
 
         * {
           box-sizing: border-box;
-        }`}</style>
+        }`}
+        </style>
     </div>
   )
 }
