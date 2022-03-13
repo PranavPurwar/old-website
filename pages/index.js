@@ -3,10 +3,10 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <div className="container">
-    <meta name="title" content="Pranav Purwar - Web and Android Developer" />
-    <meta name="description" content="Knows Next.js, Javascript, Typescript, Java, Python, Html amd many more..." />
-    <meta name="author" content="Pranav Purwar" />
-    
+      <meta name="title" content="Pranav Purwar - Web and Android Developer" />
+      <meta name="description" content="Knows Next.js, Javascript, Typescript, Java, Python, Html amd many more..." />
+      <meta name="author" content="Pranav Purwar" />
+
       <Head>
         <title>Pranav Purwar</title>
         <link rel="icon" href="/favicon.ico" />
@@ -185,8 +185,7 @@ export default function Home() {
             width: 100%;
             flex-direction: column;
           }
-        }
-      `}</style>
+        }`}</style>
 
       <style jsx global>{`
         html,
@@ -200,8 +199,7 @@ export default function Home() {
 
         * {
           box-sizing: border-box;
-        }
-      `}</style>
+        }`}</style>
     </div>
   )
 }
