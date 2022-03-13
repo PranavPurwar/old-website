@@ -3,6 +3,10 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <div className="container">
+    <meta name="title" content="Pranav Purwar - Web and Android Developer" />
+    <meta name="description" content="Knows Next.js, Javascript, Typescript, Java, Python, Html amd many more..." />
+    <meta name="author" content="Pranav Purwar" />
+    
       <Head>
         <title>Pranav Purwar</title>
         <link rel="icon" href="/favicon.ico" />
@@ -29,7 +33,7 @@ export default function Home() {
             className="card"
           >
             <h3>Some of my cool projects &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <p>Some of my cool projects, I love working on</p>
           </a>
 
           <a
