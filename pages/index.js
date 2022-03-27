@@ -2,6 +2,7 @@ import Head from 'next/head'
 
 export default function Home () {
   return (
+    
     <div className="container">
       <meta name="title" content="Pranav Purwar - Web and Android Developer" />
       <meta name="description" content="Knows Next.js, Javascript, Typescript, Java, Python, Html amd many more..." />
@@ -10,6 +11,7 @@ export default function Home () {
       <Head>
         <title>Pranav Purwar</title>
         <link rel="icon" href="/favicon.ico" />
+            
       </Head>
 
       <main>
@@ -204,5 +206,6 @@ export default function Home () {
         }`}
         </style>
     </div>
+    
   )
 }
